@@ -8,6 +8,12 @@
     .nosotros-atraction-section .atraction-container-image {
         height: 100%; 
     }
+    .frase-section div p {
+        font-size: 20px;
+    }
+    .valor-mision-section {
+        margin: 100px 100px 0 100px;
+    }
 }
 @media (max-width: 900px) {
     .nosotros-atraction-section {
@@ -16,6 +22,24 @@
     .carta-section{
         grid-template-columns: 500px;
     }
+    .frase-section div p {
+        margin: 0 20px 0 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .valor-mision-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 80px 100px 0 100px;
+    }
+    .valor-mision-section img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+    .fondo-imagen-section{
+        height: 40vh;
+    }
 }
 @media (max-width: 600px) {
     .nosotros-atraction-section {
@@ -23,11 +47,19 @@
     }
     .carta-section{
         grid-template-columns: 300px;
-        margin: 0 30px 0 30px;
+        margin: 30px 30px 0 30px;
     }
     .carta-section .parte-cocteles-section,
     .carta-section .parte-platos-section,
     .carta-section .parte-postres-section {
         max-height: 250px;
+    }
+    .frase-section div p {
+        font-size: 16px;
+    }
+    .valor-mision-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin: 80px 30px 0 30px;
     }
 }
