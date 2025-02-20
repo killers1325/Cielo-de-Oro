@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --gold: gold;
+    --very-light-pink: #C7C7C7;
+    --grey: #6B6B6B;
+    --text-input-field: #F7F7F7;
+}
+
+body{
+    font-family: 'Merriweather', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+.body-index {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.nav-index{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: black;
+}
+.header-index .nav-index p a{
+    margin: 0;
+    color: var(--gold);
+    font-size: 30px;
+}
+.home-main-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    background-image: url('../assets/images/pantalla-index.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-main-index section h1 {
+    margin-top: -20px;
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+}
+.home-main-index section button{
+    text-decoration: none;
+    width: auto;
+    height: 50px;
+    background-color: var(--black);
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.home-main-index section button:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.home-main-index section button a{
+    color: var(--gold);
+    margin: 10px 15px;
+}
+/*Nosotros.html*/
+
+.header-index .opcions-header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.header-index .opcions-header p{
+    margin: 0;
+}
+.header-index .opcions-header p a{
+    color: var(--gold);
+}
+.nosotros-atraction-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center; 
+    padding-top: 40px;
+    margin: 40px 200px 40px 200px;
+}
+.nosotros-atraction-section .atraction-container h1{
+    margin: 0;
+    font-size: 34px;
+    font-weight: bold;
+}
+.nosotros-atraction-section .atraction-container p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.clasic-button {
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    background-color: var(--black);
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+.clasic-button a{
+    color: var(--gold);
+    font-weight: bold;
+}
+.nosotros-atraction-section .atraction-container-image {
+    height: 100%;
+    object-fit: cover; 
+    width: 100%; 
+}
+.carta-section{
+    display: grid;
+    grid-template-columns: 700px;
+    grid-template-rows: repeat(4, auto);
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.carta-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid var(--black);
+    width: 100%;
+}
+.carta-section .parte-cocteles-section,
+.carta-section .parte-platos-section,
+.carta-section .parte-postres-section {
+    width: 100%;  
+    max-height: 400px;
+    overflow: hidden; 
+}
+.carta-section .parte-cocteles-section img,
+.carta-section .parte-platos-section img,
+.carta-section .parte-postres-section img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+/*Footer*/
+footer{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: var(--black);
+}
+footer .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center;
+}
+footer .icons span{
+    color: var(--gold);
+}
