@@ -44,7 +44,7 @@ a{
     justify-content: center;
     text-align: center;
     height: 100%;
-    background-image: url('../assets/images/pantalla-index.jpg');
+    background-image: url('../assets/images/restaurante-desde-afuera.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,9 +124,9 @@ a{
     font-weight: bold;
 }
 .nosotros-atraction-section .atraction-container-image {
-    height: 100%;
+    height: 90%;
+    width: 90%; 
     object-fit: cover; 
-    width: 100%; 
 }
 
 .carta-section{
@@ -148,16 +148,17 @@ a{
 .carta-section .parte-platos-section,
 .carta-section .parte-postres-section {
     width: 100%;  
-    max-height: 400px;
+    height: 100%;
+    max-height: 340px;
     overflow: hidden; 
 }
 .carta-section .parte-cocteles-section img,
 .carta-section .parte-platos-section img,
 .carta-section .parte-postres-section img {
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
+    height: 70%;
+    width: 70%;
+    max-width: 70%;
+    max-height: 70%;
     object-fit: cover;
 }
 .frase-section{
@@ -189,14 +190,14 @@ a{
     margin: 0;
 }
 .valor-mision-section img {
-    width: 100%;
+    width: 60%;
     height: 80%;
     object-fit: cover;
 }
 .fondo-imagen-section {
     height: 60vh;
     width: 100%;
-    background-image: url("../assets/images/menu-nosotros.jpg");
+    background-image: url("../assets/images/menu-nosotros.webp");
     background-position: center;
     background-size: cover; 
     background-attachment: fixed;

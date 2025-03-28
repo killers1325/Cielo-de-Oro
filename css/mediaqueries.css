@@ -6,13 +6,16 @@
         margin: 0 auto 20px;
     }
     .nosotros-atraction-section .atraction-container-image {
-        height: 100%; 
+        height: 90%;
+        width: 70%; 
     }
     .frase-section div p {
         font-size: 20px;
     }
     .valor-mision-section {
         margin: 100px 100px 0 100px;
+        min-height: 70%;
+        min-width: 80%;
     }
 }
 @media (max-width: 900px) {
@@ -21,6 +24,11 @@
     }
     .carta-section{
         grid-template-columns: 500px;
+    }
+    .carta-section .parte-cocteles-section,
+    .carta-section .parte-platos-section,
+    .carta-section .parte-postres-section {
+        max-height: 270px;
     }
     .frase-section div p {
         margin: 0 20px 0 20px;
@@ -33,8 +41,8 @@
         margin: 80px 100px 0 100px;
     }
     .valor-mision-section img {
-        width: 100%;
-        height: 80%;
+        width: 60%;
+        height: 75%;
         object-fit: cover;
     }
     .fondo-imagen-section{
@@ -52,7 +60,7 @@
     .carta-section .parte-cocteles-section,
     .carta-section .parte-platos-section,
     .carta-section .parte-postres-section {
-        max-height: 250px;
+        max-height: 190px;
     }
     .frase-section div p {
         font-size: 16px;
@@ -61,5 +69,8 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         margin: 80px 30px 0 30px;
+    }
+    .fondo-imagen-section {
+        height: 40vh;
     }
 }
